@@ -1,166 +1,159 @@
 <DOCTYPE html>
 
-<html>
+  <html>
 
   <head>
     <title>Carlos Severiano Aragon Portfolio</title>
-    <link type="text/css" rel="stylesheet" href="/css/CAPstyle.css">
-    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">  
+    <link type="text/css" rel="stylesheet" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="/assets/javascript/royalslider/royalslider.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Javascript and JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Titillium+Web:900&display=swap" rel="stylesheet">
+
+
     <style>
       body {
-        color:#fff;
+        color: #fff;
         background-color: #000;
       }
 
-      h1, h2, h3, h4, h5, h6 {
-        font-family: 'Lato', sans-serif; 
-        font-weight: 400; 
-}
-
-      .menu {
-        border:1px solid #FFF;
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
       }
 
-      .menu ul.nav li{
+      .menu {
+        border: 1px solid #FFF;
+      }
+
+      .menu ul.nav li {
         list-style: none;
         margin: 0;
         padding: 0;
         float: right;
-        color:rgba(42,21,232);
-        font-family: 'Montserrat', sans-serif; 
+        color: rgba(42, 21, 232);
+        font-family: 'Montserrat', sans-serif;
       }
 
       .menu ul.nav li:hover {
         color: #fff;
-        background: rgba(42,21,232);
+        background: rgba(42, 21, 232);
       }
 
       .main ul {
-        border:1px solid #FFF;
+        border: 1px solid #FFF;
         background: #000;
-        }
-
+      }
     </style>
+
   </head>
 
   <body>
 
-<!-- Header -->
+    <!-- Header -->
     <div class="head">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="C:\Users\Caragon\Documents\CSACoding Portfolio Webpage\IMG\Truslide_Image_test.jpg" width="150px">
+            <img src="img/Truslide_Image_test.jpg" width="150px">
           </div>
           <div class="col-md-6" float:right>
             <h1 class="push-right">Carlos Aragon</h1>
             <h1 class="push-right">Coding Design Portfolio</h1>
           </div>
-      </div>
-    </div>
-
-<!-- Menu -->
-    <div class="menu">
-      <div class="container">
-        <ul class="nav">
-          <li><a href="http://casacoding.com/pages/contact.html">Contact</a></li>
-          <li><a href="http://casacoding.com/pages/projects.html">Projects</a></li>
-          <li><a href="http://casacoding.com/pages/aboutme.html">About Me</a></li>
-        </ul>
-
-      </div>
-    </div>
-
-<!-- Main -->
-    <div class="main">
-      <div class="container">
-        <!- Projects >
-        <div class="row">
-          <div class="col-md-8">
-            <img src="https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=45bd30e23c10573d8084359be2e91847" width="100%">
-          </div>
-          <div class="col-md-4">
-            <h3>Websites</h3>
-            <ul>
-              <li>Project 1</li>
-              <li>Project 2</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Standalone Software</h3>
-            <ul>
-              <li>Data Entry/Retrieval</li>
-              <li>Signal Processing</li>
-              <li>Relay/Switch control</li>
-            </ul>
-          </div>
-          <div class="col-md-8">
-            <img src="https://images.unsplash.com/photo-1451187863213-d1bcbaae3fa3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ff792d7d99d4f05cc7110ead7768852d" width="100%">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8">
-            <img src="https://images.unsplash.com/photo-1454711557808-c35861541b84?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e4e41bda17de4c58894624b11df9efa9" width="100%x">
-          </div>
-          <div class="col-md-4">
-            <h3>Hardware Designs</h3>
-            <ul>
-              <li>Power Control</li>
-              <li>Analog/Digital Conversion</li>
-              <li>Data Management</li>
-              <li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <h3>About Me</h3>
-            <ul>
-              <li>Experience</li>
-              <li>Schooling</li>
-            </ul>
-          </div>
-          <div class="col-md-8">
-            <img src="https://images.unsplash.com/photo-1454678904372-2ca94103eca4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=35e06fe11f2c60277282aa454bfdb89c" width="100%">
-          </div>
         </div>
       </div>
-    </div>
 
-<!-- Footer -->
-    <div class="footer">
-      <div class="container">
-         <div class="row">
-           <div class="col-md-4">
-           </div>
-             <div class="col-md-4">
-                    </div>
+      <!-- Menu -->
+      <div class="menu">
+        <div class="container">
+          <ul class="nav">
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/aboutMe.html">About Me</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <!-- Main -->
+      <div class="main">
+        <h3>Integrity, Innovation, Adaptability</h3>
+        <h2>The core values of CaSA Coding</h2>
+        <h2>Making your dreams a reality</h2>
+        <div class="jumbotron">
+          <!-- Projects -->
+          <section class="regular slider" id="emojies">
+            <div class="sliderContainer">
+              <button>
+                <img
+                  src="img/photo-1416339442236-8ceb164046f8.jpg" />
+                <h3 class="flex-caption">Websites</h3>
+              </button>
+            </div>
+            <div class="sliderContainer">
+              <button>
+                <img
+                  src="img/photo-1429051883746-afd9d56fbdaf.jpg" />
+
+                <h3 class="flex-caption">Standalone Software</h3>
+              </button>
+            </div>
+            <div class="sliderContainer">
+              <button> <img
+                  src="img/photo-1451187863213-d1bcbaae3fa3.jpg" />
+
+                <h3 class="flex-caption">Hardware Designs</h3>
+              </button>
+            </div>
+
+            <div class="sliderContainer">
+              <button> <img
+                  src="img/photo-1444427169197-de497742b62d.jpg" />
+                <h3>About Me</h3>
+              </button>
+            </div>
+          </section>
+          <!-- Footer -->
+          <div class="footer">
+            <div class="container">
+              <div class="row">
                 <div class="col-md-4">
-                   <h3>Carlos Aragon Coding Desing</h3>
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                  <h3>Carlos Aragon Coding Desing</h3>
                   <p>116 BlueGrass Rd</p>
                   <p>New York, NY</p>
                   <p>(484)192-8372</p>
                   <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/email.svg"></a>
-                    <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/fb.svg"></a>
-                    <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg"></a>
-                    </div>
-
+                  <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/fb.svg"></a>
+                  <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg"></a>
                 </div>
-        <p></p>
-      </div>
-    </div>
+
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <script type="text/javascript" src="assets/javascript/mtb.js"></script>
+          <script type="text/javascript" src="assets/javascript/royalslider/royalslider.min.js"></script>
   </body>
-</html>
 
-
-
-
-
-
-
-
-
-
-
+  </html>
