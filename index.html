@@ -4,13 +4,14 @@
 
   <head>
     <title>Carlos Severiano Aragon Portfolio</title>
-    <link type="text/css" rel="stylesheet" href="/assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Style Sheets -->
-    <link rel="stylesheet" href="/assets/javascript/royalslider/royalslider.css">
+    <link rel="stylesheet" href="assets/javascript/royalslider/royalslider.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 
     <!-- Javascript and JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -21,7 +22,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One|Titillium+Web:900&display=swap" rel="stylesheet">
 
-
+    <!--
     <style>
       body {
         color: #fff;
@@ -61,7 +62,7 @@
         background: #000;
       }
     </style>
-
+-->
   </head>
 
   <body>
@@ -71,89 +72,91 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="img/Truslide_Image_test.jpg" width="150px">
+            <img class="profileImg" src="assets/img/Truslide_Image_test.jpg">
           </div>
-          <div class="col-md-6" float:right>
-            <h1 class="push-right">Carlos Aragon</h1>
-            <h1 class="push-right">Coding Design Portfolio</h1>
+          <div class="col-md-6">
+            <h1 class="profileHead">Carlos Aragon</h1>
+            <h1 class="profileHead">Coding Design Portfolio</h1>
           </div>
         </div>
       </div>
 
       <!-- Menu -->
-      <div class="menu">
-        <div class="container">
+      <div class="container">
+        <div class="menu">
           <ul class="nav">
             <li><a href="pages/contact.html">Contact</a></li>
             <li><a href="pages/projects.html">Projects</a></li>
             <li><a href="pages/aboutMe.html">About Me</a></li>
           </ul>
-
         </div>
       </div>
 
       <!-- Main -->
       <div class="main">
-        <h3>Integrity, Innovation, Adaptability</h3>
-        <h2>The core values of CaSA Coding</h2>
-        <h2>Making your dreams a reality</h2>
+        <section id="mission">
+          <h1>Integrity, Innovation, Adaptability</h1>
+          <h3>The core values of CaSA Coding</h3>
+          <h3>Making your dreams a reality</h3>
+        </section>
+
         <div class="jumbotron">
           <!-- Projects -->
           <section class="regular slider" id="emojies">
             <div class="sliderContainer">
               <button>
-                <img
-                  src="img/photo-1416339442236-8ceb164046f8.jpg" />
+                <img src="assets/img/photo-1416339442236-8ceb164046f8.jpg" />
                 <h3 class="flex-caption">Websites</h3>
               </button>
             </div>
             <div class="sliderContainer">
               <button>
-                <img
-                  src="img/photo-1429051883746-afd9d56fbdaf.jpg" />
+                <img src="assets/img/photo-1429051883746-afd9d56fbdaf.jpg" />
 
                 <h3 class="flex-caption">Standalone Software</h3>
               </button>
             </div>
             <div class="sliderContainer">
-              <button> <img
-                  src="img/photo-1451187863213-d1bcbaae3fa3.jpg" />
+              <button> <img src="assets/img/photo-1451187863213-d1bcbaae3fa3.jpg" />
 
                 <h3 class="flex-caption">Hardware Designs</h3>
               </button>
             </div>
 
             <div class="sliderContainer">
-              <button> <img
-                  src="img/photo-1444427169197-de497742b62d.jpg" />
+              <button> <img src="assets/img/photo-1444427169197-de497742b62d.jpg" />
                 <h3>About Me</h3>
               </button>
             </div>
           </section>
-          <!-- Footer -->
-          <div class="footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                  <h3>Carlos Aragon Coding Desing</h3>
-                  <p>116 BlueGrass Rd</p>
-                  <p>New York, NY</p>
-                  <p>(484)192-8372</p>
-                  <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/email.svg"></a>
-                  <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/fb.svg"></a>
-                  <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg"></a>
-                </div>
+        </div>
 
+
+        <!-- Footer -->
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
               </div>
-              <p></p>
+              <div class="col-md-4">
+              </div>
+              <div class="col-md-4">
+                <h3>Carlos Aragon Coding Desing</h3>
+                <p>116 BlueGrass Rd</p>
+                <p>New York, NY</p>
+                <p>(484)192-8372</p>
+                <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/email.svg"></a>
+                <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/fb.svg"></a>
+                <a href="https://s3.amazonaws.com/codecademy-content/projects/headlines/twitter.svg"></a>
+              </div>
+
             </div>
+            <p></p>
           </div>
-          <script type="text/javascript" src="assets/javascript/mtb.js"></script>
-          <script type="text/javascript" src="assets/javascript/royalslider/royalslider.min.js"></script>
+        </div>
+        <!--<script type="text/javascript" src="assets/javascript/mtb.js"></script>
+          <script type="text/javascript" src="assets/javascript/royalslider/jquery.royalslider.min.js"></script>
+          -->
   </body>
 
   </html>
