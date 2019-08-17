@@ -63,11 +63,24 @@ img {
 
 .weblink {
     margin: 10px;
+    padding: 10px;
     width: 40%;
     border: solid blanchedalmond 5px;
 }
 
+.pmList {
+    border: solid blanchedalmond 5px;
+    padding: 10px;
+    float: left;
+}
+
+.pair {
+    float: left;
+}
 footer {
+    content: " ";
+    display: block;
+    clear: both; 
     background-color: #000000;
 }
 
