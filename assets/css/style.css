@@ -76,7 +76,10 @@ img {
 
 .pair {
     float: left;
+    margin: 20px;
+    padding: 10px;
 }
+
 footer {
     content: " ";
     display: block;
