@@ -61,6 +61,12 @@ img {
     width: 900px;
 }
 
+.weblink {
+    margin: 10px;
+    width: 40%;
+    border: solid blanchedalmond 5px;
+}
+
 footer {
     background-color: #000000;
 }
