@@ -20,6 +20,7 @@ h5,
 h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    color: white;
 }
 
 .menu {
@@ -89,6 +90,7 @@ img {
     display: block;
     clear: both; 
     background-color: #000000;
+    align-content: center;
 }
 
 @media screen and (max-width: 768px) {
