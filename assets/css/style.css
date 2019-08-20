@@ -3,6 +3,9 @@ body {
     background-color: #000000;
 }
 
+.head {
+    padding-top: 30px;
+}
 .profileImg {
     width: 70%;
     height: auto;
@@ -23,9 +26,17 @@ h6 {
     color: white;
 }
 
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 24px;
+}
+
 .menu {
     border: 1px solid #FFF;
     float: right;
+    margin: 30px 0 30px 0;
 }
 
 .menu ul.nav li {
@@ -45,6 +56,9 @@ h6 {
     content: " ";
     display: block;
     clear: both;  
+    border-top: solid whitesmoke 5px;
+    border-bottom: solid whitesmoke 5px;
+    margin-top: 20px;
 }
 
 .main ul {
@@ -55,7 +69,7 @@ h6 {
 #mission {
     text-align: center;
     align-content: center;
-    margin: 20px;
+    padding: 50px;
 }
 
 img {
