@@ -127,6 +127,13 @@ display: inline;
     pointer-events: none;
 }
 
+.aboutH {
+    font-size: 26px;  
+}
+
+.aboutC {
+    font-size: 18px;  
+}
 @media screen and (max-width: 768px) {
     .wrapper {
         width: 100%;
