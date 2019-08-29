@@ -1,18 +1,50 @@
 body {
     color: #fff;
-    background-color: #000000;
+    background-image: linear-gradient(to bottom right
+    ,#4bb1f9, #125382)
 }
 
 .head {
     padding-top: 30px;
 }
+
+a {
+    color: #ebff00;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.aboutInfo {
+    float: left;
+}
+
+.contentL {
+    width: 50%;
+    float: left;
+    padding: 10px;  
+    margin: 0;
+}
+
+.contentR {
+    width: 50%;
+    float: left;
+    padding: 10px;  
+    margin: 0;
+}
+
+.row {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
 .profileImg {
     width: 70%;
     height: auto;
 }
 
 .profileHead {
-    float: right;
+    float: left;
 }
 
 h1,
@@ -33,6 +65,9 @@ p {
     font-size: 24px;
 }
 
+h2 {
+    text-decoration: underline;
+}
 .menu {
     border: 1px solid #FFF;
     float: right;
@@ -77,7 +112,7 @@ img {
 }
 
 .aboutImg {
-    width: inherit;
+    width: 100%;
 }
 
 .weblink {
