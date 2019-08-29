@@ -15,7 +15,8 @@ a {
 }
 
 .aboutInfo {
-    float: left;
+    text-align: justify;
+    text-indent: 2em;
 }
 
 .contentL {
@@ -27,7 +28,7 @@ a {
 
 .contentR {
     width: 50%;
-    float: left;
+    float: right;
     padding: 10px;  
     margin: 0;
 }
@@ -112,7 +113,8 @@ img {
 }
 
 .aboutImg {
-    width: 100%;
+    width: 60%;
+    display: inline;
 }
 
 .weblink {
