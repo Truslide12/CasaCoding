@@ -33,6 +33,15 @@ a {
     margin: 0;
 }
 
+.aboutImg {
+    width: 48%;
+}
+
+embed {
+    width: 75%;
+    height: 700%;
+}
+
 .row {
     content: " ";
     display: block;
@@ -112,10 +121,6 @@ img {
     width: 900px;
 }
 
-.aboutImg {
-    width: 60%;
-    display: inline;
-}
 
 .weblink {
     margin: 10px;
