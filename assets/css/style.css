@@ -9,11 +9,14 @@ body {
 }
 
 a {
-    color: #ebff00;
+    color: #ffc205;
     text-decoration: none;
     background-color: transparent;
 }
 
+a.subNav {
+    color:#3b05ff;
+}
 .aboutInfo {
     text-align: justify;
     text-indent: 2em;
