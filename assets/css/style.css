@@ -1,11 +1,13 @@
 body {
     color: #fff;
     background-image: linear-gradient(to bottom right
-    ,#4bb1f9, #125382)
+    ,#000000, #838384)
 }
 
 .head {
     padding-top: 30px;
+    margin: 0 40px 0 0;
+    float:left;
 }
 
 a {
@@ -69,6 +71,7 @@ h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: white;
+    text-align: center;
 }
 
 p {
@@ -124,13 +127,22 @@ img {
     width: 900px;
 }
 
-
 .weblink {
     margin: 10px;
     padding: 10px;
     width: 40%;
     border: solid blanchedalmond 5px;
 }
+
+tr {
+    align-content:center;
+    margin: 20px;
+}
+
+td {
+    padding: 20px; 
+    align-content:center;
+ }
 
 .pmList {
     border: solid blanchedalmond 5px;
@@ -150,7 +162,16 @@ img {
     clear: both; 
     background-color: #000000;
     align-content: center;
+    text-align: center;
 }
+
+.footer-img {
+    width: 5%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -162,6 +183,14 @@ display: block;
 ul li{
 list-style-type:none;
 display: inline;
+}
+
+.title {
+ margin: 20px 0 0 0;
+}
+
+.description {
+    margin: 10px 0 0 0;
 }
   
 .navbar-nav .nav-link{display:inline-block;}
@@ -179,6 +208,23 @@ display: inline;
 .aboutC {
     font-size: 18px;  
 }
+
+#showcase-box {
+    /* width: 80%; */
+    align-content: center;
+}
+.showcase {
+    align-content: center;
+    text-align: center;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.underConstruction {
+    align-content: center;
+    width: 60%;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         width: 100%;
